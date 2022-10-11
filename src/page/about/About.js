@@ -5,7 +5,7 @@ function About() {
   return (
     <div className={styles.aboutContainer}>
       <Header />
-      <h1>About Page</h1>
+      <h1>About Page Not Found</h1>
     </div>
   );
 }
