@@ -1,0 +1,60 @@
+nav {
+    box-shadow: 0px 3px 6px rgba(124, 202, 221, 0.589);
+    background-color: rgba(44, 44, 44, 0.479);
+}
+
+header {
+    z-index: 99;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    height: 10vh;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.author {
+    flex: 2;
+}
+
+.author p {
+    display: inline-block;
+    color: rgb(219, 219, 219);
+    word-spacing: 8px;
+    margin-left: 10px;
+}
+
+.navigation {
+    flex: 3;
+    display: flex;
+    justify-content: end;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+.navLinks li a:link,
+.navLinks li a:visited {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    transition: all .3s;
+}
+
+.navLinks li a:hover {
+    color: goldenrod;
+}
