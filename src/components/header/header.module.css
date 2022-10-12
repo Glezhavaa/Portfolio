@@ -58,3 +58,42 @@ header {
 .navLinks li a:hover {
     color: goldenrod;
 }
+
+.burgerIcon {
+    display: none;
+    color: white;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .author p {
+        display: inline-block;
+        word-spacing: 4px;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .author p {
+        word-spacing: 3px;
+        font-size: 12px;
+
+    }
+
+}
+    
+@media screen and (max-width: 479px) {
+    .author p {
+        word-spacing: 3px;
+        font-size: 8px;
+    }
+
+    .burgerIcon {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+}

@@ -23,6 +23,9 @@ function Header() {
               </li>
             </ul>
           </div>
+          <div className={styles.burgerIcon}>
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
         </div>
       </nav>
     </header>
