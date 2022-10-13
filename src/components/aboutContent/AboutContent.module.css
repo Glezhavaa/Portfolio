@@ -1,0 +1,157 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    height: 90vh;
+    min-height: 400px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aboutMe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin: 0 10px;
+    margin-bottom: 100px;
+}
+
+.story {
+    padding: 0 15px;
+    font-weight: 300;
+    box-shadow: -5px -5px 6px rgba(124, 202, 221, 0.904);
+    border-top-left-radius: 8px;
+}
+
+.skillsContainer {
+    padding: 0 15px;
+    box-shadow: 5px 5px 6px rgba(124, 202, 221, 0.904);
+    border-bottom-right-radius: 8px;
+}
+
+.skillsBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 5px 8px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    color: white;
+}
+
+h5 {
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.story p {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 970px;
+    }
+    
+    h5 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    
+    .story p {
+        font-size: 14px;
+    }
+
+    .skill {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 740px;
+    }
+
+    .headingP {
+        font-size: 20px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+    
+    .story p {
+        font-size: 12px;
+    }
+
+    .skill {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+}
+    
+@media screen and (max-width: 479px) {
+    .container {
+        max-width: 466px;
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headingP {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+    
+    .story p {
+        font-size: 10px;
+    }
+
+    .skill {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+}
