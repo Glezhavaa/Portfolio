@@ -3,7 +3,7 @@
     margin: 0 auto;
     align-items: center;
     height: 90vh;
-    min-height: 400px;
+    min-height: 510px;
     font-weight: 700;
     letter-spacing: 1px;
     display: flex;
@@ -100,7 +100,6 @@ h2 {
 @media screen and (max-width: 767px) {
     .container {
         max-width: 740px;
-        max-height: 400px;
     }
     
     .heading {
@@ -128,7 +127,6 @@ h2 {
 @media screen and (max-width: 479px) {
     .container {
         max-width: 466px;
-        max-height: 400px;
     }
 
     .aboutMe {
