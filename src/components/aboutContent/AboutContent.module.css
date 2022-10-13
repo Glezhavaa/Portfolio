@@ -3,7 +3,7 @@
     margin: 0 auto;
     align-items: center;
     height: 90vh;
-    min-height: 340px;
+    min-height: 490px;
     font-weight: 700;
     letter-spacing: 1px;
     display: flex;
@@ -113,6 +113,10 @@ h2 {
 
     h2 {
         font-size: 16px;
+    }
+
+    .aboutMe {
+        margin-bottom: 10px;
     }
     
     .story p {
