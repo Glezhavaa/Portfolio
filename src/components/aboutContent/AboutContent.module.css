@@ -101,9 +101,9 @@ h2 {
     .container {
         max-width: 740px;
     }
-
-    .headingP {
-        font-size: 20px;
+    
+    .heading {
+        margin-bottom: 5px;
     }
     
     h5 {
@@ -134,10 +134,10 @@ h2 {
         flex-direction: column;
     }
 
-    .headingP {
-        font-size: 18px;
+    .heading {
+        margin-bottom: 5px;
     }
-    
+
     h5 {
         font-size: 14px;
     }
