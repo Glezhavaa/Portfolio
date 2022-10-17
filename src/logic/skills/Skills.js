@@ -1,5 +1,5 @@
 import programingSkills from "../../data/programingSkills";
-import * as styles from "../../components/AboutSection/AboutSection.module.css"
+import * as styles from "../../components/aboutSection/AboutSection.module.css"
 
 function RenderSkills() {
   return programingSkills.map((skill, index) => {
