@@ -1,4 +1,4 @@
-import * as styles from "../AboutSection/AboutSection.module.css";
+import * as styles from "../aboutSection/AboutSection.module.css";
 import RenderEducation from "../../logic/education/education";
 import RenderSkills from "../../logic/skills/Skills";
 
