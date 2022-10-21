@@ -10,7 +10,7 @@ function About() {
         <Header />
         <AboutHeader />
       </div>
-      <section className ={styles.mainSection}>
+      <section className={styles.mainSection}>
         <AboutSection />
       </section>
     </>

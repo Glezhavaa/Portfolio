@@ -2,7 +2,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
-    margin: 0 10px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.aboutInfo {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.aboutText {
+    padding: 0 15px;
 }
 
 .educationContainer {
@@ -11,7 +22,7 @@
 }
 
 .educationBox {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #bdc3c7;
     margin-bottom: 10px;
 }
 
@@ -81,6 +92,10 @@ h2 {
     .aboutMe {
         margin-bottom: 25px;
     }
+
+    .aboutInfo {
+        grid-gap: 20px;
+    }
     
     .educationContainer p {
         font-size: 12px;
@@ -101,6 +116,11 @@ h2 {
     .aboutMe {
         display: flex;
         flex-direction: column;
+    }
+
+    .aboutInfo {
+        grid-template-rows: 2fr 1fr;
+        grid-gap: 20px;
     }
 
     .heading {

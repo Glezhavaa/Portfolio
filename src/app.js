@@ -1,7 +1,7 @@
 import RoutesLib from "./Routes";
 
 function App() {
-  return (<RoutesLib />);
+  return <RoutesLib />;
 }
 
 export default App;

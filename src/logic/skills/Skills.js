@@ -1,9 +1,13 @@
 import programingSkills from "../../data/programingSkills";
-import * as styles from "../../components/aboutSection/AboutSection.module.css"
+import * as styles from "../../components/aboutSection/AboutSection.module.css";
 
 function RenderSkills() {
   return programingSkills.map((skill, index) => {
-    return <div className={styles.skill} key={index}>{skill}</div>;
+    return (
+      <div className={styles.skill} key={index}>
+        {skill}
+      </div>
+    );
   });
 }
 

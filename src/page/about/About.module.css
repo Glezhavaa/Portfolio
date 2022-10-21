@@ -4,20 +4,28 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .mainSection {
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 @media screen and (max-width: 991px) {
-    
+    .mainSection {
+        padding-top: 60px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-
+    .mainSection {
+        padding-top: 40px;
+    }
 }
     
 @media screen and (max-width: 479px) {
 
+    .mainSection {
+        padding-top: 30px;
+    }
 }
