@@ -1,7 +1,7 @@
 import * as styles from "./header.module.css";
 import ROUTES from "../../config/Routes";
 import { NavLink } from "react-router-dom";
-import MobileNav from "../mobileNav/MobileNav";
+import MobileNava from "../mobileNav/MobileNav";
 
 function Header() {
   return (
@@ -24,7 +24,7 @@ function Header() {
               </li>
             </ul>
             <div className={styles.burgerIcon}>
-              <MobileNav />
+              <MobileNava />
             </div>
           </div>
         </div>
