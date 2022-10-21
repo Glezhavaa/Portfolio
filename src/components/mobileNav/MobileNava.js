@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MobileNavList from "../mobileNavList/MobileNavList";
 import * as styles from "./MobileNav.module.css";
 
-function MobileNava() {
+function MobileNav() {
   const [navIsOpen, setNavIsOpen] = useState(false);
   const handleToggle = () => {
     setNavIsOpen((navIsOpen) => !navIsOpen);
@@ -21,4 +21,4 @@ function MobileNava() {
   );
 }
 
-export default MobileNava;
+export default MobileNav;
