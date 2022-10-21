@@ -1,6 +1,7 @@
 import * as styles from "./header.module.css";
 import ROUTES from "../../config/Routes";
 import { NavLink } from "react-router-dom";
+import MobileNav from "../mobileNav/mobileNav";
 
 function Header() {
   return (
@@ -22,9 +23,9 @@ function Header() {
                 <NavLink to={`/${ROUTES.PROJECTS}`}>Projects</NavLink>
               </li>
             </ul>
-          </div>
-          <div className={styles.burgerIcon}>
-            <ion-icon name="menu-outline"></ion-icon>
+            <div className={styles.burgerIcon}>
+              <MobileNav />
+            </div>
           </div>
         </div>
       </nav>

@@ -61,7 +61,6 @@ header {
 
 .burgerIcon {
     display: none;
-    color: white;
     margin-right: 15px;
 }
 
@@ -78,7 +77,6 @@ header {
     .author p {
         word-spacing: 3px;
         font-size: 12px;
-
     }
 
 }
@@ -90,10 +88,12 @@ header {
     }
 
     .burgerIcon {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .navigation {
+    .navLinks {
         display: none;
     }
 }

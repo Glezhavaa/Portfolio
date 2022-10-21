@@ -1,0 +1,22 @@
+.navIcon {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: #a4b0be;
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+    
+@media screen and (max-width: 479px) {
+    .navIcon {
+        display: block;
+    }
+}
