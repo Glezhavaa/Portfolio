@@ -1,4 +1,4 @@
-import * as styles from "./MobileNav.module.css";
+import * as styles from "./Mobile.module.css";
 import React, { useState } from "react";
 import MobileNavList from "../mobileNavList/MobileNavList";
 
