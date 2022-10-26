@@ -1,10 +1,14 @@
 import Header from "../../components/header/header";
+import ImageSlider from "../../components/projectSlider";
+import SliderData from "../../components/projectSlider/sliderData";
+import ProjectsSection from "../../components/projectsSection/ProjectsSection";
 
 function Projects() {
   return (
     <>
       <Header />
-      <h1>Projects Page</h1>
+      <ImageSlider slides={SliderData} />
+      <ProjectsSection />
     </>
   );
 }

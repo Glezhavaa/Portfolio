@@ -10,7 +10,7 @@ const programingSkills = [
   "react",
   "react hooks",
   "react routes",
-  "react styled components",
+  "react css modules",
   "axios",
   "rest api",
   "github",
